@@ -1,8 +1,8 @@
 {
     "$schema": "./mfdevice.schema.json",
     "Info": {
-      "Label": "Mobiflight's template",
-      "Type": "MOBIFLIGHT_TEMPLATE",
+      "Label": "Trim Indicator ESP32-S3",
+      "Type": "Trim_Indicator",
       "Author": "Mobiflight",
       "URL": "https://github.com",
       "Version" : "1.0.0"
@@ -18,18 +18,18 @@
     "MessageTypes": [
       {
         "id": 0,
-        "label": "Show Speed Value",
-        "description": "$ will be displayed as Speed value"
+        "label": "Show Trim Value",
+        "description": "$ will be displayed as Trim value"
       },
       {
         "id": 1,
-        "label": "Show Heading Value",
-        "description": "$ will be displayed as Heading value"
+        "label": "LED Direction",
+        "description": "0 = Normal, 1 = Reversed"
       },
       {
         "id": 2,
-        "label": "Show AP On/Off",
-        "description": "0 = True, 1 = False"
+        "label": "LED Brightness",
+        "description": "0 to 100"
       }
     ]
   }

@@ -30,18 +30,17 @@
   "Info": {
     "CanInstallFirmware": true,
     "CanResetBoard": true,
-    "FirmwareBaseName": "mobiflight_template_nano",
+    "FirmwareBaseName": "Trim_Indicator_nano",
     "FirmwareExtension": "hex",
-    "FriendlyName": "Arduino Nano",
+    "FriendlyName": "Trim Indicator Nano",
     "LatestFirmwareVersion": "2.5.1",
-    "MobiFlightType": "MobiFlight Template Nano",
+    "MobiFlightType": "Trim_Indicator_Nano",
     "ResetFirmwareFile": "reset.arduino_uno_1_0_2.hex",
     "CustomDeviceTypes": [
-      "MOBIFLIGHT_TEMPLATE",
-      "MOBIFLIGHT_TEMPLATE2"
+      "Trim_Indicator"
     ],
     "Community": {
-      "Project": "Your Project",
+      "Project": "Trim Indicator",
       "Website": "https://YourWebsite.com",
       "Docs": "https://YourWebsite.com",
       "Support": "https://YourWebsite.com"
@@ -59,7 +58,7 @@
     "MaxShifters": 6,
     "MaxSteppers": 4,
     "MaxInputMultiplexer": 6,
-    "MaxCustomDevices": 0
+    "MaxCustomDevices": 5
   },
   "Pins": [
     {
